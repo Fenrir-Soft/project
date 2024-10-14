@@ -1,0 +1,18 @@
+{% extends "structure/layout.html.twig" %}
+
+{% block content %}
+    <form  name="login-form">
+        <h1>Login</h1>
+        <label for="login">Username</label>
+        <input type="text" required name="login" id="login" />
+
+        <label for="password">Password</label>
+        <input type="text" required name="password" id="password" />
+
+        <button type="submit">Sign In</button>
+        <p>
+            <a href="">Home</a>
+        </p>
+    </form>
+    <script src="assets/login.js"></script>
+{% endblock %}

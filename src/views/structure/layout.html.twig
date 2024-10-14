@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <base href="{{ request.getBasePath() }}/">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Fenrir Framework</title>
+        <link rel="stylesheet" href="assets/style.css">
+		{% block head %}{% endblock %}
+	</head>
+	<body>
+		{% block content %}{% endblock %}
+	</body>
+</html>

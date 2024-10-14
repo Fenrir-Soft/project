@@ -1,0 +1,31 @@
+{
+    "name": "fenrir-soft/project",
+    "version": "1.0.0",
+    "type": "template",
+    "description": "A project template to make creating new Fenrir Framework projects easier.",
+    "keywords": [
+        "template"
+    ],
+    "homepage": "https://fenrirsoft.com.br",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fábio Dias",
+            "email": "contato@fenrirsoft.com.br",
+            "homepage": "https://fenrirsoft.com.br",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "fenrir-soft/framework": "^1",
+        "fenrir-soft/authentication": "^1"
+    },
+    "scripts": {
+        "dev": "serve --host=0.0.0.0 --port=0"
+    }
+}
